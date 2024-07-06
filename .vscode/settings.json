@@ -1,0 +1,10 @@
+{
+	"C_Cpp.errorSquiggles": "disabled",
+	"files.associations": {
+		"client.h": "c",
+		"common.h": "c",
+		"ft_printf.h": "c",
+		"get_next_line.h": "c",
+		"libft.h": "c"
+	}
+}
