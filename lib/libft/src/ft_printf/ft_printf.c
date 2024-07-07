@@ -6,7 +6,7 @@
 /*   By: gbuczyns <gbuczyns@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/09 16:22:50 by gbuczyns          #+#    #+#             */
-/*   Updated: 2024/05/12 15:59:10 by gbuczyns         ###   ########.fr       */
+/*   Updated: 2024/07/07 17:29:25 by gbuczyns         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,16 +64,3 @@ int	ft_printf(const char *last_known_pointer, ...)
 	va_end(arguments_list);
 	return (count);
 }
-
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	print(" NULL %s NULL ", NULL);
-// 	// int count;
-// 	// count = ft_printf("tekst %s\n", "string");
-// 	// ft_printf("chars written = %d\n", count);
-// 	// ft_printf("tekst %p\n", &count);
-// 	// printf("tekst %p\n", &count);
-// 	// printf("tekst %u\n", INT32_MAX);
-// 	// printf("tekst %d\n", INT32_MAX);
-// }
